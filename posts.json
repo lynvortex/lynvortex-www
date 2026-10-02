@@ -3,7 +3,7 @@
         "id": "用户指南",
         "title": "用户指南",
         "description": "",
-        "content": "# 用户指南\n\n欢迎来到绘萤者！\n\n<div class=\"callout callout-note\">\n<p class=\"callout-title\">ℹ️ 仓库地址</p>\n<p>本站 GitHub 仓库：<a href=\"https://github.com/lynvortex/lynvortex\" target=\"_blank\" rel=\"noopener\">https://github.com/lynvortex/lynvortex</a></p>\n</div>\n\n<div class=\"callout callout-tip\">\n<p class=\"callout-title\">💡 下载方式</p>\n<p>本站的文件下载均在仓库内获取，同时会提供蓝奏云、123 云盘（大于 100MB）的资源链接。</p>\n</div>\n\n<div class=\"callout callout-warning\">\n<p class=\"callout-title\">⚠️ 转载注意</p>\n<p>转载前请务必阅读「<a href=\"post.html?id=%E8%BD%AC%E8%BD%BD%E9%A1%BB%E7%9F%A5\">转载须知</a>」</p>\n</div>",
+        "content": "# 用户指南\n\n欢迎来到绘萤者！\n\n<div class=\"callout callout-note\">\n<p class=\"callout-title\">ℹ️ 仓库地址</p>\n<p>本站 GitHub 仓库：<a href=\"https://github.com/lynvortex/Lynvortex-www\" target=\"_blank\" rel=\"noopener\">https://github.com/lynvortex/Lynvortex-www</a></p>\n</div>\n\n<div class=\"callout callout-tip\">\n<p class=\"callout-title\">💡 下载方式</p>\n<p>本站的文件下载均在仓库内获取，同时会提供蓝奏云、123 云盘（大于 100MB）的资源链接。</p>\n</div>\n\n<div class=\"callout callout-warning\">\n<p class=\"callout-title\">⚠️ 转载注意</p>\n<p>转载前请务必阅读「<a href=\"post.html?id=%E8%BD%AC%E8%BD%BD%E9%A1%BB%E7%9F%A5\">转载须知</a>」</p>\n</div>",
         "date": "2026-04-04",
         "cover": "./images/covers/cover-guide.webp",
         "author": "绘萤者",

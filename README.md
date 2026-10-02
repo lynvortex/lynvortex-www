@@ -47,7 +47,7 @@ PHP 写作界面。保存文章时同时更新 `posts.json` 并生成每篇文�
 ## 快速开始
 
 ```bash
-git clone https://github.com/lynvortex/lynvortex.git my-site
+git clone https://github.com/lynvortex/Lynvortex-www.git my-site
 cd my-site
 ```
 

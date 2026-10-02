@@ -40,7 +40,7 @@ return [
        ------------------------------------------------------------------ */
     'email'    => 'lynvortex@163.com',
     'qq_group' => '1084212889',
-    'github'   => 'https://github.com/lynvortex/lynvortex',
+    'github'   => 'https://github.com/lynvortex/Lynvortex-www',
 
     /* ------------------------------------------------------------------
        友情链接
