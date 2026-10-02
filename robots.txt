@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /post.html
+
+# 站内搜索结果页无需收录，避免重复内容
+Disallow: /articles/?search=
+
+Sitemap: https://www.lynvortex.top/sitemap.xml

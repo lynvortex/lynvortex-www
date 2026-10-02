@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'">
+<title>用户指南 - 绘萤者</title>
+<meta name="description" content="# 用户指南 欢迎来到绘萤者！ ℹ️ 仓库地址 本站 GitHub 仓库：https://github.com/lynvortex/lynvortex 💡 下载方式 本站的文件下载均在仓库内获取，同时会提供蓝奏云、123 云盘（大于 100…">
+<meta name="keywords" content="绘萤者, Lynvortex">
+<link rel="canonical" href="https://www.lynvortex.top/post/yong-hu-zhi-nan/">
+<meta name="theme-color" content="#0066ff">
+<meta name="robots" content="index, follow" id="search-robots">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="绘萤者">
+<meta property="og:title" content="用户指南 - 绘萤者">
+<meta property="og:description" content="# 用户指南 欢迎来到绘萤者！ ℹ️ 仓库地址 本站 GitHub 仓库：https://github.com/lynvortex/lynvortex 💡 下载方式 本站的文件下载均在仓库内获取，同时会提供蓝奏云、123 云盘（大于 100…">
+<meta property="og:url" content="https://www.lynvortex.top/post/yong-hu-zhi-nan/">
+<meta property="og:image" content="https://www.lynvortex.top/images/covers/cover-guide.webp">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-04-04">
+<meta property="article:modified_time" content="2026-04-04">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="用户指南 - 绘萤者">
+<meta name="twitter:description" content="# 用户指南 欢迎来到绘萤者！ ℹ️ 仓库地址 本站 GitHub 仓库：https://github.com/lynvortex/lynvortex 💡 下载方式 本站的文件下载均在仓库内获取，同时会提供蓝奏云、123 云盘（大于 100…">
+<meta name="twitter:image" content="https://www.lynvortex.top/images/covers/cover-guide.webp">
+
+<!-- 结构化数据 -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"用户指南","description":"# 用户指南 欢迎来到绘萤者！ ℹ️ 仓库地址 本站 GitHub 仓库：https://github.com/lynvortex/lynvortex 💡 下载方式 本站的文件下载均在仓库内获取，同时会提供蓝奏云、123 云盘（大于 100…","image":["https://www.lynvortex.top/images/covers/cover-guide.webp"],"datePublished":"2026-04-04","dateModified":"2026-04-04","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.lynvortex.top/post/yong-hu-zhi-nan/"},"author":{"@type":"Organization","name":"绘萤者","url":"https://www.lynvortex.top/"},"publisher":{"@type":"Organization","name":"绘萤者","logo":{"@type":"ImageObject","url":"https://www.lynvortex.top/images/icon.webp"}}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"首页","item":"https://www.lynvortex.top/"},{"@type":"ListItem","position":2,"name":"文章列表","item":"https://www.lynvortex.top/articles/"},{"@type":"ListItem","position":3,"name":"用户指南","item":"https://www.lynvortex.top/post/yong-hu-zhi-nan/"}]}</script>
+
+<link rel="icon" href="/images/icon.webp" type="image/webp">
+<link rel="apple-touch-icon" href="/images/icon.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="stylesheet" href="/assets/vendor/github-dark.min.css">
+</head>
+<body>
+<div id="reading-progress"></div>
+<div id="toast" role="status">✅ 复制成功，快去分享给好友吧！</div>
+
+<header class="navbar">
+  <div class="container">
+    <div class="navbar-inner">
+      <a href="/" class="logo"><img src="/images/icon.webp" alt="绘萤者 Logo" width="36" height="36">绘萤者</a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a href="/" class="nav-link">首页</a>
+        <a href="/articles/" class="nav-link active">文章列表</a>
+        <a href="/about/" class="nav-link">关于我们</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="action-btn" onclick="LY.toggleSearch()" aria-label="搜索文章"><svg class="icon" aria-hidden="true"><use href="/images/icons.svg#search"/></svg></button>
+        <button id="mobile-menu-btn" class="action-btn mobile-menu-btn" aria-label="打开菜单" aria-expanded="false" aria-controls="mobile-menu"><svg class="icon" aria-hidden="true"><use href="/images/icons.svg#bars"/></svg></button>
+      </div>
+    </div>
+    <div id="search-container" class="search-wrap">
+      <div class="search-inner">
+        <input type="text" id="search-input" class="search-input" placeholder="输入关键词搜索文章..." aria-label="搜索关键词">
+        <svg class="icon search-clear" onclick="LY.clearSearchInput()" role="button" tabindex="0" aria-label="清空搜索框"><use href="/images/icons.svg#times"/></svg>
+        <button class="search-submit" onclick="LY.doSearch()" aria-label="执行搜索">搜索</button>
+      </div>
+    </div>
+    <div id="mobile-menu" class="mobile-menu" aria-label="移动端导航">
+      <a href="/">首页</a>
+      <a href="/articles/" class="active">文章列表</a>
+      <a href="/about/">关于我们</a>
+    </div>
+  </div>
+</header>
+
+<div id="app-content" class="container main-content">
+
+  <nav class="breadcrumb" aria-label="面包屑">
+    <a href="/">首页</a><span>/</span><a href="/articles/">文章列表</a><span>/</span>
+    <span class="current">用户指南</span>
+  </nav>
+
+  <main class="post-shell">
+    <article class="post-article">
+      <div class="post-hero">
+        <img id="post-cover" src="/images/covers/cover-guide.webp" alt="用户指南" fetchpriority="high" width="896" height="360">
+        <div class="post-hero-mask"></div>
+        <div class="post-hero-text">
+          <h1 class="post-title">用户指南</h1>
+          <div class="post-meta">
+            <span class="date-badge">2026-04-04</span>
+            <span class="meta-item"><svg class="icon" aria-hidden="true"><use href="/images/icons.svg#user"/></svg>绘萤者</span>
+          </div>
+        </div>
+      </div>
+      <div class="post-body">
+        <div id="post-content" class="prose"><h1>用户指南</h1>
+<p>欢迎来到绘萤者！</p>
+<div class="callout callout-note">
+<p class="callout-title">ℹ️ 仓库地址</p>
+<p>本站 GitHub 仓库：<a href="https://github.com/lynvortex/lynvortex" target="_blank" rel="noopener noreferrer">https://github.com/lynvortex/lynvortex</a></p>
+</div>
+<div class="callout callout-tip">
+<p class="callout-title">💡 下载方式</p>
+<p>本站的文件下载均在仓库内获取，同时会提供蓝奏云、123 云盘（大于 100MB）的资源链接。</p>
+</div>
+<div class="callout callout-warning">
+<p class="callout-title">⚠️ 转载注意</p>
+<p>转载前请务必阅读「<a href="/post/zhuan-zai-xu-zhi/">转载须知</a>」</p>
+</div></div>
+        <div class="post-footer">
+          <span>最后更新于 2026-04-04</span>
+          <a onclick="LY.sharePost()"><svg class="icon" aria-hidden="true"><use href="/images/icons.svg#share-alt"/></svg> 分享</a>
+        </div>
+      </div>
+    </article>
+    <div class="post-nav">
+      <div class="spacer"></div>
+      <a href="/post/zhuan-zai-xu-zhi/" class="next"><span class="nav-label">下一篇 →</span><div class="nav-title">转载须知</div></a>
+    </div>
+    <div class="side-grid">
+      <div class="side-card">
+        <div class="author-row">
+          <img src="/images/icon.webp" alt="绘萤者" width="48" height="48" loading="lazy">
+          <div><div class="name">绘萤者</div><div class="motto">Fight for Freedom</div></div>
+        </div>
+        <p class="desc">探索真正的互联网精神，创造更有意义的互联网</p>
+        <a href="https://github.com/lynvortex/lynvortex" target="_blank" rel="noopener noreferrer" class="btn-outline"><svg class="icon" aria-hidden="true"><use href="/images/icons.svg#github"/></svg> 在 GitHub 上关注我们</a>
+      </div>
+      <div class="side-card">
+        <h4>推荐阅读</h4>
+        <div class="related-list">
+          <a href="/post/zhuan-zai-xu-zhi/"><div class="r-title">转载须知</div><div class="r-date">2026-04-04</div></a>
+          <a href="/post/hui-ying-zhe-qi-hang/"><div class="r-title">绘萤者-启航</div><div class="r-date">2026-04-03</div></a>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-links">
+      <span class="footer-links-label">友情链接</span>
+      <a href="https://box.lynvortex.top" target="_blank" rel="noopener" class="footer-link">绘萤工具箱</a>
+      <a href="https://github.com/lynvortex/lynvortex" target="_blank" rel="noopener" class="footer-link">GitHub 仓库</a>
+    </div>
+    <p class="footer-copy">&copy; 2026 绘萤者-Lynvortex</p>
+    <p class="footer-beian">
+      <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">湘ICP备2026031078号-1</a>
+      <a href="https://beian.mps.gov.cn/#/query/webSearch?code=43050302000259" target="_blank" rel="noopener" style="margin-left:10px;"><img src="/images/beian.png" alt="公安备案徽标" width="16" height="16">湘公网安备43050302000259号</a>
+    </p>
+  </div>
+</footer>
+
+<button id="back-to-top" class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="返回顶部"><svg class="icon" aria-hidden="true"><use href="/images/icons.svg#arrow-up"/></svg></button>
+
+<script src="/assets/vendor/highlight.min.js" defer></script>
+<script src="/assets/js/site.js" defer></script>
+<script src="/assets/js/post.js" defer></script>
+</body>
+</html>

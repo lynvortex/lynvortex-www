@@ -1,0 +1,33 @@
+# ==========================================================================
+# 绘萤者 — Git 忽略规则
+# ==========================================================================
+
+# ---- 后台密钥与运行数据（绝对不能提交）----
+admin/config.php
+admin/config.php.tmp
+admin/data/
+admin/*.log
+
+# ---- 用户上传的图片（保留目录，忽略内容）----
+images/uploads/*
+!images/uploads/.gitkeep
+
+# ---- 编辑器与系统 ----
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 依赖与构建产物 ----
+node_modules/
+vendor/
+*.tmp
+*.bak
+*.bak.*
+*.orig
+
+# ---- 本地工具（不在站点目录内，但以防万一）----
+.tools/

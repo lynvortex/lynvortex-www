@@ -1,0 +1,28 @@
+# 统一换行符为 LF，避免 Windows 提交把整个仓库标记为改动
+* text=auto eol=lf
+
+# 明确按二进制处理的类型
+*.webp  binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+
+# 保留 Windows 下需要的换行
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+
+# 让 GitHub 语言统计更准确，并折叠压缩文件
+*.min.js  linguist-vendored
+*.min.css linguist-vendored
+assets/vendor/* linguist-vendored
+
+# 生成的静态页在 diff 中折叠
+post/**/index.html linguist-generated
+articles/index.html linguist-generated
+about/index.html linguist-generated
+sitemap.xml linguist-generated
